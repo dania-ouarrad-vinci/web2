@@ -59,14 +59,13 @@ router.get("/:id", (req, res) => {
 });
 // http://localhost:3000/pizzas/2
 
-
-
 // Create a pizza to be added to the menu.
-router.post('/', (req, res) => {
+router.post("/", (req, res) => {
   const title = req?.body?.title?.length !== 0 ? req.body.title : undefined;
-  const content = req?.body?.content?.length !== 0 ? req.body.content : undefined;
+  const content =
+    req?.body?.content?.length !== 0 ? req.body.content : undefined;
 
-  console.log('POST /pizzas');
+  console.log("POST /pizzas");
 
   if (!title || !content) return res.sendStatus(400); // error code '400 Bad request'
 
@@ -85,5 +84,6 @@ router.post('/', (req, res) => {
   res.json(newPizza);
 });
 
-
 module.exports = router;
+
+// ajouter suppression ==> api-basic tutorial
