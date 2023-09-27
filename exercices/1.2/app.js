@@ -22,8 +22,9 @@ const stats = {}; // initialisation d'un objet vide
   "PUT /users": 1   // Cette opération PUT /users a été effectuée 1 fois.
 };
 */
+// a mettre avant le traitement de nos routes aussi non on y passe pas
 app.use((req, res, next) => {
-  // middleware executé pour chaqque requête entrante.
+  // middleware executé pour chaqque requête entrante vu qu'il n'y a pas de strings en paramètre
   // middleware qui compte le nombre de fois que chaque opération HTTP est effectuée (par exemple, "GET /films") et affiche ces statistiques dans la console à chaque requête.
   const currentOperation = `${req.method} ${req.path}`;
   // req.method contient la méthode : GET ou POST
