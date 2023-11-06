@@ -8,4 +8,5 @@ package-lock.json
 .env
 
 # Ignore macOS .DS_Store files
-.DS_Stores
+.DS_Store
+**/.DS_Store
