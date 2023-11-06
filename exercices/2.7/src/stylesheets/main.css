@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  #logo {
+    height: 55px;
+  }
+
+
+  .navBar {
+    z-index: 9999;
+  }
+
+
+
+  .banner {
+    background-color: #FFEECC;
+    height: 815px;
+    background-size: cover;
+  }
+  
+  .custom-img {
+    max-height: 150px;
+    width: 100%;
+    object-fit: cover; 
+  }
+
+
+ 
+   
+    .category {
+      margin-top: 20px; 
+    }
+
+   
+ .btn-style{
+  background-color: #CCEEFF;
+ }
+
+
+  
+  .container-xxl {
+    margin-top: 2%;
+    margin-bottom: 55px;
+  }
+  
+  .footer-bypass {
+    margin-bottom: 55px;
+  }
+
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: black;
+    text-align: center;
+    height: 30px;
+  }
+
+
+
+   
+
+
+
+  
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+   
