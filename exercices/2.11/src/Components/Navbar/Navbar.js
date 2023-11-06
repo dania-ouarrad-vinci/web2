@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { Navbar as BootstrapNavbar } from 'bootstrap';
+import logoImage from '../../img/logo.jpg';
 
 /**
  * Render the Navbar which is styled by using Bootstrap
@@ -13,7 +14,9 @@ const Navbar = () => {
   const navbar = `
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Add your brand here</a>
+          <a class="navbar-brand" href="/">
+          <img  class= "logo" src="${logoImage}" alt="Logo">
+          </a>
           <button
             class="navbar-toggler"
             type="button"
