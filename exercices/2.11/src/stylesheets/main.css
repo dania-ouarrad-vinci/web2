@@ -1,0 +1,44 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style du corps */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  /* Style de la section principale */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style des films */
+  .movie {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style des images de film */
+  .image {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  
+  /* Style des titres de film */
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
