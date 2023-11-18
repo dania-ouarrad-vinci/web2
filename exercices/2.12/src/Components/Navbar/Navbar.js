@@ -9,10 +9,11 @@ import logo from '../../img/logo.png';
  * - the router will show the Page associated to this URI when the user click on a nav-link
  */
 
+// fixed-top 
 const Navbar = () => {
   const navbarWrapper = document.querySelector('#navbarWrapper');
   const navbar = `
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light "> 
         <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img  class= "logo" src="${logo}" alt="Logo">
@@ -36,13 +37,16 @@ const Navbar = () => {
                 <a class="nav-link" aria-current="page" href="#" data-uri="/">Classement</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" data-uri="/about">About us</a>
-              </li>   
+                <a class="nav-link" href="#" data-uri="/about">A propos</a>
+              </li>  
+              <li class="nav-item">
+              <a class="nav-link" href="#" data-uri="/categories">Catégories</a>
+            </li>  
             </ul>
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="btn btn-color" href="#" data-uri="/">Créer ton quiz</a>
+            <a class=" nav-link  btn btn-color" href="#" data-uri="/create">Créer ton quiz</a>
             </li>  
             <li class="nav-item">
             <a class="nav-link " href="#" data-uri="/">Inscription</a>

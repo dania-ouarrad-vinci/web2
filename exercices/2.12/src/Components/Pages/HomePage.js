@@ -1,209 +1,88 @@
-import scienceImage from '../../img/biology-220005_1280.jpg';
-
-import histoImage from '../../img/books-2606859_1280.jpg';
-
-import cultureGImage from '../../img/cyber-brain-7633488_1280.jpg';
-
-import ecoImage from '../../img/entrepreneur-1340649_1280.jpg';
-
-import langueImage from '../../img/flags-1722052_1280.png';
-
-import JeuxVideoImage from '../../img/fortnite-4129124_1280.jpg';
-
-import mathImage from '../../img/geometry-1023846_1280.jpg';
-
-import cinemaImage from '../../img/popcorn-5663525_1280.jpg';
-
-import informatiqueImage from '../../img/programmer-1653351_1280.png';
-
-import geoImage from '../../img/knowledge-1052013_1280.jpg';
-
-import sportImage from '../../img/tennis-5782695_1280.jpg';
-import autreImage from '../../img/question-mark-49958_1280.jpg';
-
 const HomePage = () => {
   const main = document.querySelector('main');
   main.innerHTML = `
   <section id="SectionMain">
-    <section class="banner pt-5 d-flex justify-content-center align-items-center ">
-
-      <div class="container my-5 py-5">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>
-              Prêt à explorer l'univers des quiz ? 
-              Découvrez une multitude de catégories et mettez vos connaissances à l'épreuve !
-            </h1>
-           
+  <section class="banner pt-5 d-flex justify-content-center align-items-center ">
+    <div class="container my-5 py-5">
+      <div class="row">
+      <div class="col-md-6 text-center">
+          <h1  >
+          Prêt à explorer l'univers des quiz ? Découvrez une multitude de catégories et mettez vos connaissances à l'épreuve !
+          </h1>
           </div>
-          <div class="col-md-6"></div>
-        </div>
-
-        <div class="row">
-        <div class="col-md-6">
-     
-        <a href="#categories" class="btn btn-style">Commencer</a>
-     
-        </div>
-        <div class="col-md-6">
-     
-        <a href="#categories" class="btn btn-style">Créer</a>
-     
-        </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="container-xxl  text-center mt-4" id="categories"> 
-   
-      
-
-        <div class="row mt-3">
-
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category ">
-            <div class="col-4 col-lg-2 card highlight-card " style="width: 18rem;">
-            <img class=custom-img  src="${mathImage}" alt="Image categorie Math">
-              <div class="card-body">
-                <p class="card-text">Mathématiques</p>
-              </div>
-            </div>
-          </a>
-         
-
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${histoImage}" alt="Image categorie histoire">
-              <div class="card-body">
-                <p class="card-text">Histoire</p>
-              </div>
-            </div>
-          </a>
-
-          <ahref="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${informatiqueImage}" alt="Image categorie informatique">
-              <div class="card-body">
-                <p class="card-text">Informatique</p>
-              </div>
-            </div>
-          </a>
-
-         </div>
-
-        <div class="row mt-3">
-        <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${langueImage}" alt="Image categorie langue">
-              <div class="card-body">
-                <p class="card-text">Langues</p>
-              </div>
-            </div>
-          </a>
-     
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${sportImage}" alt="Image categorie sport">
-              <div class="card-body">
-                <p class="card-text">Sport</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${scienceImage}" alt="Image categorie science">
-              <div class="card-body">
-                <p class="card-text">Sciences</p>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="row mt-3">
-        <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-        <div class="col-4 col-lg-2 card highlight-card " style="width: 18rem;">
-        <img class=custom-img src="${geoImage}" alt="Image categorie geographie">
-          <div class="card-body">
-            <p class="card-text">Géographie</p>
+          <div class="col-md-6 text-center">
+          <h1  >
+         IMAGE .......
+          </h1>
           </div>
-        </div>
-      </a>
 
-      <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-        <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-        <img class=custom-img src="${cultureGImage}" alt="Image categorie culture générale">
-          <div class="card-body">
-            <p class="card-text">Culture Générale</p>
           </div>
+
+     <div class="row  mt-2">
+          <div class="col-md-6 text-center">
+          <a class="btn btn-style" href="#" data-uri="/categories">Catégorie</a>
+
         </div>
-      </a>
-     <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${JeuxVideoImage}" alt="Image categorie jeux video">
-              <div class="card-body">
-                <p class="card-text">Jeux Vidéos</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="row mt-3">
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${ecoImage}" alt="Image categorie economie">
-              <div class="card-body">
-                <p class="card-text">Economie</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${cinemaImage}" alt="Image categorie cinéma">
-              <div class="card-body">
-                <p class="card-text">Cinéma</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="#"  data-uri="/" class="col text-center text-decoration-none category">
-            <div class="col-4 col-lg-2 card highlight-card" style="width: 18rem;">
-            <img class=custom-img src="${autreImage}" alt="Image categorie autre">
-              <div class="card-body">
-                <p class="card-text">Autres</p>
-              </div>
-            </div>
-          </a>
-      </div>
-  
     </div>
-    </section>`;
 
-  const cards = document.querySelectorAll('.card');
 
-  cards.forEach((card) => {
-    card.addEventListener('mouseover', () => {
-     // eslint-disable-next-line no-param-reassign
-     card.style.borderWidth = '2px'; 
-      card.classList.add('border-primary');
-    
-   //  ou alors :card.style.borderBottom = '2px solid blue'; 
-    });
+  </section>
 
-    card.addEventListener('mouseout', () => {
-      // eslint-disable-next-line no-param-reassign
-      card.style.borderWidth = '1px'; 
-      card.classList.remove('border-primary');
 
-  // ou alors  card.style.borderBottom = ''; 
-    });
-  });
+  <section id="bannerCreation" class="bannerCreation d-flex align-items-center  ">
+    <div class="container ">
+   
+    <div class="row">
+      <div class="col-md-12 pb-5">
+      <h3 class="text-center" >
+         Envie de créez votre propre quiz en seulement quelques clics ?
+          </h3>  
+        </div>
+        </div>
+       
+        <div class="row mt-2">
+        <div class="col-md-4 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
+        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+        <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+      </svg>
+        </div>
+
+        <div class="col-md-4 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-highlighter" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07.435-.414Zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254-2.905-2.906Zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065 2.85 2.85ZM5.293 13.5 2.5 10.707v1.586L3.707 13.5h1.586Z"/>
+      </svg>
+
+        </div>
+
+        <div class="col-md-4 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-arms-up" viewBox="0 0 16 16">
+        <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+        <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.492 1.492 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.72.72 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.72.72 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+      </svg>
+
+        </div>
+        </div>
+
+        <div class="row mt-2">
+        <div class="col-md-4 text-center">
+        <h4>  <a href="#" data-uri="/"> Inscrivez-vous </a>gratuitement </h4>
+        </div>
+
+        <div class="col-md-4 text-center">
+        <h4>  Créer vos propre quiz </h4>
+        </div>
+        <div class="col-md-4 text-center">
+        <h4> Apprenez tout en vous amusant ! </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>`;
 };
 
 export default HomePage;
-
 
 // changer les uri des data-uri="/" dans les catégories
 

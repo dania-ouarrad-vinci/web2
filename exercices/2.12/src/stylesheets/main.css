@@ -9,18 +9,27 @@
   }
 
 
-  .navBar {
-    z-index: 9999;
+  .imgaboutUsPage{
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover; 
   }
 
   .logo {
-    height: 55px;
+    height: 70px;
   }
 
-
   .banner {
-    background-color: #FFEECC;
-    height: 815px;
+    background-color:  #F4EEFF;
+    /* #F0E0FF;*/
+    /* #FFEECC;*/
+    height: 700px;
+    background-size: cover;
+  }
+
+  .bannerCreation{
+    background-color: #FAF5FF;
+    height: 400px;
     background-size: cover;
   }
   
@@ -30,16 +39,18 @@
     object-fit: cover; 
   }
 
-   
 .category {
       margin-top: 20px; 
     }
 
    
+    .btn-color{
+      background-color:#E6F5FF;
+    }
+  
  .btn-style{
-  background-color: #CCEEFF;
-  padding: 15px 25px; /* You can adjust these values to increase or decrease the button size */
-  font-size: 30px; /* You can adjust the font size as well */
+  background-color: #E6F5FF;
+  width: 600px;
  }
 
   .container-xxl {
@@ -63,9 +74,6 @@
     height: 30px;
   }
 
-  .btn-color{
-    background-color:#FFEECC;
-  }
 
 .rectangleAboutUs{
   height: 700px;
@@ -74,10 +82,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 0, 0.3);
+  background-color: #FAF5FF;
 }
 
 
 .contentAboutUs{
   display: none;
 }
+
+.color-purple{
+  background-color:  #F4EEFF;}
+
+  .color-blue{
+    background-color:#E6F5FF ;
+  }
